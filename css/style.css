@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #4e4e4e;
+    line-height: 1.5;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+img {
+    max-inline-size: 100%;
+    display: block;
+}
+
+figure img {
+    border-radius: 6px;
+    box-shadow: 8px 8px 8px rgba(7, 122, 146, 0.1);
+    margin-bottom: 1rem;
+}
+
+ul li,
+ol li {
+    margin-bottom: 1rem;
+}
+
+figure,
+h1,
+p,
+ul,
+ol,
+header {
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(46, 46, 46);
+}
+
+h2 {
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+header {
+    padding-block-start: 2rem;
+}
+
+a:link,
+a:visited {
+    color: rgb(7, 122, 146);
+}
+
+a:hover,
+a:active {
+    color: rgb(5, 81, 97);
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1.75rem;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p,
+h3,
+ul li,
+ol li,
+header a {
+    font-size: 1.25rem;
+}
+
+p,
+li {
+    max-width: 60ch;
+}
+
+.container {
+    max-inline-size: 75rem;
+    margin-inline: auto;
+}
